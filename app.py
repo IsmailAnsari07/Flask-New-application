@@ -57,5 +57,6 @@ def health():
         'articles': r['articles']
     }
     return render_template('health.html',cases = case)
+    
 if __name__ == '__main__':
     app.run(debug=True)
